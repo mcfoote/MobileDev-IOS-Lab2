@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="C06_Intent_Lab" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvv-2K-y5j">
+                                <rect key="frame" x="101.66666666666669" y="403.66666666666669" width="190" height="35"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Switch To Green View">
+                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="50B-p7-AyM" kind="show" id="JbY-QT-Rc7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDW-7i-YtL">
+                                <rect key="frame" x="108" y="656" width="177" height="35"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Switch To Blue View">
+                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="qt0-Pf-C1W" kind="show" id="CxV-gw-KVQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.75132893041237114" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Pvv-2K-y5j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jmB-gQ-Lvb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="wDW-7i-YtL" secondAttribute="centerY" multiplier="5:4" id="lll-a3-2BI"/>
+                            <constraint firstItem="wDW-7i-YtL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wpf-Yg-iOP"/>
+                            <constraint firstItem="Pvv-2K-y5j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="y6x-0X-gzL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="d9m-So-6Uz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-266.41221374045801" y="-27.464788732394368"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="At2-6T-qBW">
+            <objects>
+                <viewController id="50B-p7-AyM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="idq-RS-ANC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3YL-bb-qv3">
+                                <rect key="frame" x="109.66666666666669" y="403.66666666666669" width="174" height="35"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Switch To Red View">
+                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Paq-KA-LPx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="P2o-Zz-Ff5"/>
+                        <color key="backgroundColor" red="0.0" green="0.72301708054296743" blue="0.049345650095706753" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="3YL-bb-qv3" firstAttribute="centerY" secondItem="idq-RS-ANC" secondAttribute="centerY" id="0sM-1j-agk"/>
+                            <constraint firstItem="3YL-bb-qv3" firstAttribute="centerX" secondItem="idq-RS-ANC" secondAttribute="centerX" id="1yR-vx-FCD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="LDe-aF-pBp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oZg-gC-4bf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="564" y="-27"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="RGn-GL-bLe">
+            <objects>
+                <viewController id="qt0-Pf-C1W" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gT8-YE-9j0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tjs-rz-uRn">
+                                <rect key="frame" x="109.66666666666669" y="403.66666666666669" width="174" height="35"/>
+                                <color key="tintColor" systemColor="systemBackgroundColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Switch To Red View">
+                                    <color key="baseForegroundColor" systemColor="systemBlueColor"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="Doy-Vj-dTi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wie-4O-dvu"/>
+                        <color key="backgroundColor" red="0.0" green="0.0065582145718662459" blue="0.46965608891752575" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Tjs-rz-uRn" firstAttribute="centerY" secondItem="gT8-YE-9j0" secondAttribute="centerY" id="Dvu-M8-tdE"/>
+                            <constraint firstItem="Tjs-rz-uRn" firstAttribute="centerX" secondItem="gT8-YE-9j0" secondAttribute="centerX" id="h76-sa-ktp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="h9B-Uo-bQd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1Dw-NE-ZoC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="563" y="689"/>
+        </scene>
+    </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Doy-Vj-dTi"/>
+    </inferredMetricsTieBreakers>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
