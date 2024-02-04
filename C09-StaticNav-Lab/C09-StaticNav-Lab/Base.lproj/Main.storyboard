@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ZZh-Df-OUv">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Table View Controller-->
+        <scene sceneID="ahS-vB-uJY">
+            <objects>
+                <tableViewController id="6k5-3r-IRH" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" estimatedSectionHeaderHeight="-1" sectionFooterHeight="18" estimatedSectionFooterHeight="-1" id="ekS-5f-VAd">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <sections>
+                            <tableViewSection headerTitle="Seasons" footerTitle="No Coding" id="ZnJ-Ea-L2e">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="TNb-bB-djS" imageView="X0t-VE-Cxs" style="IBUITableViewCellStyleDefault" id="HN5-j0-Mj9">
+                                        <rect key="frame" x="0.0" y="55.333332061767578" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="HN5-j0-Mj9" id="hjc-bV-zWO">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Spring" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="TNb-bB-djS">
+                                                    <rect key="frame" x="37.879999999999995" y="0.0" width="335.12" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="t1.png" id="X0t-VE-Cxs">
+                                                    <rect key="frame" x="20" y="20.333333333333332" width="2.8799999999999999" height="2.8799999999999999"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="ZL8-1P-AwU" kind="show" id="uQx-An-flv"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="QfM-Xg-K1j" imageView="eeE-aX-ilF" style="IBUITableViewCellStyleDefault" id="Xz0-Zy-KfR">
+                                        <rect key="frame" x="0.0" y="99" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Xz0-Zy-KfR" id="Vnl-rY-QMo">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Summer" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="QfM-Xg-K1j">
+                                                    <rect key="frame" x="37.879999999999995" y="0.0" width="335.12" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="t2.png" id="eeE-aX-ilF">
+                                                    <rect key="frame" x="20" y="20.333333333333332" width="2.8799999999999999" height="2.8799999999999999"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="S92-Da-4fi" kind="show" id="qqB-Oy-dpx"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="d3f-Tv-1eq" imageView="ysV-ie-EQE" style="IBUITableViewCellStyleDefault" id="Nil-0p-mTY">
+                                        <rect key="frame" x="0.0" y="142.66666793823242" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Nil-0p-mTY" id="Nax-J2-VfT">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Fall" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="d3f-Tv-1eq">
+                                                    <rect key="frame" x="37.879999999999995" y="0.0" width="335.12" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="t3.png" id="ysV-ie-EQE">
+                                                    <rect key="frame" x="20" y="20.333333333333332" width="2.8799999999999999" height="2.8799999999999999"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="45D-KA-pdx" kind="show" id="1IF-2P-o9e"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="eDM-48-Jmm" imageView="bfz-uZ-xMy" style="IBUITableViewCellStyleDefault" id="m3I-mg-Zti">
+                                        <rect key="frame" x="0.0" y="186.33333587646484" width="393" height="43.666667938232422"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="m3I-mg-Zti" id="urD-uk-MWl">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Winter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eDM-48-Jmm">
+                                                    <rect key="frame" x="37.879999999999995" y="0.0" width="335.12" height="43.666667938232422"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="t4.png" id="bfz-uZ-xMy">
+                                                    <rect key="frame" x="20" y="20.333333333333332" width="2.8799999999999999" height="2.8799999999999999"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="47H-LF-kqE" kind="show" id="M43-XP-t6f"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="6k5-3r-IRH" id="UC9-6F-Ccb"/>
+                            <outlet property="delegate" destination="6k5-3r-IRH" id="YU4-GX-EiK"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="Kzr-oa-JKm">
+                        <barButtonItem key="backBarButtonItem" title="Return" id="oXm-Au-d58"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pjx-7B-hNY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895.41984732824426" y="-19.014084507042256"/>
+        </scene>
+        <!--Fall-->
+        <scene sceneID="SDY-7i-T4d">
+            <objects>
+                <viewController id="45D-KA-pdx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AsF-PX-Uun">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fall.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fN6-Lz-6zx">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="14N-M6-9yE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fN6-Lz-6zx" firstAttribute="leading" secondItem="14N-M6-9yE" secondAttribute="leading" id="KH7-j5-vRi"/>
+                            <constraint firstItem="fN6-Lz-6zx" firstAttribute="top" secondItem="14N-M6-9yE" secondAttribute="top" id="TQS-Wg-x6d"/>
+                            <constraint firstItem="fN6-Lz-6zx" firstAttribute="trailing" secondItem="14N-M6-9yE" secondAttribute="trailing" id="f1S-GP-2Dt"/>
+                            <constraint firstItem="fN6-Lz-6zx" firstAttribute="bottom" secondItem="14N-M6-9yE" secondAttribute="bottom" id="l5h-aY-VQC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Fall" id="dTM-vM-K1b"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MWK-pf-OGr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1857.2519083969464" y="355.63380281690144"/>
+        </scene>
+        <!--Winter-->
+        <scene sceneID="JIk-Cs-Bi9">
+            <objects>
+                <viewController id="47H-LF-kqE" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Xw-gp-LEO">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Winter.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Z3I-zm-hqA">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ui6-1f-dDa"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Z3I-zm-hqA" firstAttribute="trailing" secondItem="ui6-1f-dDa" secondAttribute="trailing" id="4PO-Tp-Qc6"/>
+                            <constraint firstItem="Z3I-zm-hqA" firstAttribute="top" secondItem="ui6-1f-dDa" secondAttribute="top" id="aSF-Rd-LkS"/>
+                            <constraint firstItem="Z3I-zm-hqA" firstAttribute="leading" secondItem="ui6-1f-dDa" secondAttribute="leading" id="ljx-Wp-spT"/>
+                            <constraint firstItem="Z3I-zm-hqA" firstAttribute="bottom" secondItem="ui6-1f-dDa" secondAttribute="bottom" id="q5Q-9Y-4kx"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Winter" id="qpo-TC-BFc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VzC-xs-Gym" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2730.5343511450383" y="355.63380281690144"/>
+        </scene>
+        <!--Spring-->
+        <scene sceneID="fjB-cL-yz4">
+            <objects>
+                <viewController id="ZL8-1P-AwU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ka9-Df-sP0">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Spring.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="kFb-gP-1xj">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Yew-6a-6KJ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="kFb-gP-1xj" firstAttribute="top" secondItem="Yew-6a-6KJ" secondAttribute="top" id="4ie-f9-DxZ"/>
+                            <constraint firstItem="kFb-gP-1xj" firstAttribute="leading" secondItem="Yew-6a-6KJ" secondAttribute="leading" id="7Cs-NP-dtd"/>
+                            <constraint firstItem="kFb-gP-1xj" firstAttribute="trailing" secondItem="Yew-6a-6KJ" secondAttribute="trailing" id="ZG3-Ij-JY6"/>
+                            <constraint firstItem="kFb-gP-1xj" firstAttribute="bottom" secondItem="Yew-6a-6KJ" secondAttribute="bottom" id="ovL-Tc-4dD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Spring" id="D4U-7K-wQg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DAF-2z-6Hp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1886.2595419847328" y="-333.0985915492958"/>
+        </scene>
+        <!--Summer-->
+        <scene sceneID="drK-hX-8jl">
+            <objects>
+                <viewController id="S92-Da-4fi" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2Jv-W9-Ku7">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Summer.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="3NW-Ss-9sE">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Jxt-5J-CK8"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="3NW-Ss-9sE" firstAttribute="leading" secondItem="Jxt-5J-CK8" secondAttribute="leading" id="KU9-eG-a7J"/>
+                            <constraint firstItem="3NW-Ss-9sE" firstAttribute="bottom" secondItem="Jxt-5J-CK8" secondAttribute="bottom" id="Pjn-bx-ptb"/>
+                            <constraint firstItem="3NW-Ss-9sE" firstAttribute="trailing" secondItem="Jxt-5J-CK8" secondAttribute="trailing" id="h0X-i5-XIB"/>
+                            <constraint firstItem="3NW-Ss-9sE" firstAttribute="top" secondItem="Jxt-5J-CK8" secondAttribute="top" id="skn-du-jvb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Summer" id="bYJ-71-8tx"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u3w-5h-wCU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2730.5343511450383" y="-333.0985915492958"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BzU-jx-bbR">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZZh-Df-OUv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Z15-dW-FRg">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="6k5-3r-IRH" kind="relationship" relationship="rootViewController" id="ww3-6t-c1p"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tBB-QY-bmd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-31.297709923664122" y="-19.014084507042256"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Fall.jpg" width="353" height="530"/>
+        <image name="Spring.jpg" width="355" height="530"/>
+        <image name="Summer.jpg" width="353" height="530"/>
+        <image name="Winter.jpg" width="353" height="530"/>
+        <image name="t1.png" width="2.880000114440918" height="2.880000114440918"/>
+        <image name="t2.png" width="2.880000114440918" height="2.880000114440918"/>
+        <image name="t3.png" width="2.880000114440918" height="2.880000114440918"/>
+        <image name="t4.png" width="2.880000114440918" height="2.880000114440918"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
