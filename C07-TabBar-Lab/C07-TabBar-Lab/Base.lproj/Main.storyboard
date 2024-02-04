@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DlG-eX-QeD">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Summer-->
+        <scene sceneID="cit-7d-fCD">
+            <objects>
+                <viewController id="0iX-4V-rb6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1QW-rj-mIh">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Summer.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="HFF-jv-sc8">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="z62-9u-aOC"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="HFF-jv-sc8" firstAttribute="bottom" secondItem="z62-9u-aOC" secondAttribute="bottom" id="1Bq-gj-ZWQ"/>
+                            <constraint firstItem="HFF-jv-sc8" firstAttribute="trailing" secondItem="z62-9u-aOC" secondAttribute="trailing" id="4tZ-Mw-dVc"/>
+                            <constraint firstItem="HFF-jv-sc8" firstAttribute="leading" secondItem="z62-9u-aOC" secondAttribute="leading" id="K65-DK-WUM"/>
+                            <constraint firstItem="HFF-jv-sc8" firstAttribute="top" secondItem="z62-9u-aOC" secondAttribute="top" id="bNS-WH-WyN"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Summer" image="198-card-spades.png" id="hf9-g5-fhp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OH4-U8-fqV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="668" y="851"/>
+        </scene>
+        <!--Winter-->
+        <scene sceneID="RnV-Hq-NIo">
+            <objects>
+                <viewController id="ST2-g9-bEC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a3i-ET-ble">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Winter.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="iKb-I6-o30">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="t5f-jv-RJ6"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iKb-I6-o30" firstAttribute="trailing" secondItem="t5f-jv-RJ6" secondAttribute="trailing" id="Sv9-1k-3np"/>
+                            <constraint firstItem="iKb-I6-o30" firstAttribute="leading" secondItem="t5f-jv-RJ6" secondAttribute="leading" id="WGC-Il-WRj"/>
+                            <constraint firstItem="iKb-I6-o30" firstAttribute="top" secondItem="t5f-jv-RJ6" secondAttribute="top" id="jGF-MT-cnU"/>
+                            <constraint firstItem="iKb-I6-o30" firstAttribute="bottom" secondItem="t5f-jv-RJ6" secondAttribute="bottom" id="scS-28-qDK"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Winter" image="200-card-clubs.png" id="ZRE-ko-GhG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oyw-zn-zMu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1368.7022900763359" y="850.70422535211276"/>
+        </scene>
+        <!--Spring-->
+        <scene sceneID="U2e-q0-Gpf">
+            <objects>
+                <viewController id="Rhq-Lq-wwC" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4bk-Ju-7Ob">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Spring.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="whJ-tm-obD">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="X4h-tV-Jrq"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="whJ-tm-obD" firstAttribute="bottom" secondItem="X4h-tV-Jrq" secondAttribute="bottom" id="0sd-gK-Unf"/>
+                            <constraint firstItem="whJ-tm-obD" firstAttribute="trailing" secondItem="X4h-tV-Jrq" secondAttribute="trailing" id="Rlf-oz-GYt"/>
+                            <constraint firstItem="whJ-tm-obD" firstAttribute="top" secondItem="X4h-tV-Jrq" secondAttribute="top" id="nkW-FF-swO"/>
+                            <constraint firstItem="whJ-tm-obD" firstAttribute="leading" secondItem="X4h-tV-Jrq" secondAttribute="leading" id="uLO-0R-cpV"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Spring" image="197-card-diamonds.png" id="tM9-xE-thA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BHn-Sc-erB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="667.93893129770993" y="175.35211267605635"/>
+        </scene>
+        <!--Fall-->
+        <scene sceneID="k7b-We-CkN">
+            <objects>
+                <viewController id="0db-ND-Xfo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pm7-EN-NEH">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fall.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yRc-pf-zzw">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IcW-YD-Bcf"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yRc-pf-zzw" firstAttribute="bottom" secondItem="IcW-YD-Bcf" secondAttribute="bottom" id="3jF-Jp-Mr6"/>
+                            <constraint firstItem="yRc-pf-zzw" firstAttribute="trailing" secondItem="IcW-YD-Bcf" secondAttribute="trailing" id="FIk-ZN-6rr"/>
+                            <constraint firstItem="yRc-pf-zzw" firstAttribute="leading" secondItem="IcW-YD-Bcf" secondAttribute="leading" id="Yvp-b7-Z5m"/>
+                            <constraint firstItem="yRc-pf-zzw" firstAttribute="top" secondItem="IcW-YD-Bcf" secondAttribute="top" id="tWd-zd-MYw"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Fall" image="199-card-hearts.png" id="QxX-B6-buV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sae-Di-2uz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1370.2290076335878" y="175.35211267605635"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="2XT-rU-bN3">
+            <objects>
+                <tabBarController id="DlG-eX-QeD" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="OMC-3p-e2w">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Rhq-Lq-wwC" kind="relationship" relationship="viewControllers" id="N9s-1U-R2T"/>
+                        <segue destination="0iX-4V-rb6" kind="relationship" relationship="viewControllers" id="UAc-Qj-veB"/>
+                        <segue destination="0db-ND-Xfo" kind="relationship" relationship="viewControllers" id="B2r-L7-X46"/>
+                        <segue destination="ST2-g9-bEC" kind="relationship" relationship="viewControllers" id="6TC-xb-pJo"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fLb-Oq-mH7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-236" y="479"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="197-card-diamonds.png" width="16" height="24"/>
+        <image name="198-card-spades.png" width="16" height="24"/>
+        <image name="199-card-hearts.png" width="16" height="24"/>
+        <image name="200-card-clubs.png" width="16" height="24"/>
+        <image name="Fall.jpg" width="353" height="530"/>
+        <image name="Spring.jpg" width="355" height="530"/>
+        <image name="Summer.jpg" width="353" height="530"/>
+        <image name="Winter.jpg" width="353" height="530"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
